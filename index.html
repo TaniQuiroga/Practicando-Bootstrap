@@ -12,7 +12,7 @@
  
   <body>
     <div class="container">
-      <h1>Búsqueda</h1>
+      <h1> Búsqueda</h1>
       <label>Ejemplo de un formulario de búsqueda sencillo</label>
 
       <!-- Formulario de búsqueda con un campo de entrada (input) y un botón -->
@@ -46,13 +46,70 @@
           </tr>
         </tbody>
       </table>
-    </div>
+
+      <table class="table">
+
+        <thead>
+    
+          <tr>
+            <th scope="col">Nro</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido </th>    
+          </tr>
+    
+        </thead>
+    
+        <tbody>
+    
+          <tr>     
+            <th scope="row">1</th>     
+            <td>Luis Miguel</td>     
+            <td>Mierez</td>     
+          </tr>
+    
+          <tr>     
+            <th scope="row">2</th>     
+            <td>Tania Rocio</td>     
+            <td>Quiroga Veron</td>     
+          </tr>     
+        </tbody>     
+      </table>
+
+    </div> 
+
+    <form>
+      <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Correo Electronico</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3">
+        </div> 
+        </div>
+      </fieldset>
+      <div class="row mb-3">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Recordar contraseña
+            </label>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+    </form>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
 </html>
 
